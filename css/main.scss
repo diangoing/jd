@@ -1179,7 +1179,7 @@ i{
 		}
 	}
 }
-
+// 去看看吧1
 #qkkb{
 	height:100px;
 	margin-bottom:30px;
@@ -1503,7 +1503,7 @@ i{
 	}
 }
 
-
+// 去看看吧2
 #qkkb2{
 	height:100px;
 	margin-bottom:30px;
@@ -1549,5 +1549,735 @@ i{
 			padding:0 50px;
 			background-color:#F6F6F6;
 		}
+	}
+	.ash-left .ash-title{
+		background-color:#9A4375;
+	}
+	.ash-right .ash-title{
+		background-color:#CA365A;
+	}
+}
+
+// 家电馆搞机派
+#ashjd{
+	margin-bottom:30px;
+}
+
+// 玩3c 爱运动
+#ashw3c{
+	margin-bottom:30px;
+}
+// 去看看吧3
+#qkkb3{
+	height:100px;
+	margin-bottom:30px;
+	background-color:#E0E0E0;
+	>.qkkb3-main{
+		width:$w;
+		height:100px;
+		margin:auto;
+		font-size:0;
+		>a{
+			width:396px;
+			height:100px;
+			display:inline-block;
+			&:hover{
+				opacity:0.5;
+			}
+
+		}
+		>img{
+			width:396px;
+			height:100px;
+			
+		}
+	}
+
+}
+
+// 爱吃
+#ash-ac{
+	margin-bottom:30px;
+}
+// 爱宝宝
+#ash-abb{
+	margin-bottom:30px;
+}
+// 爱阅读
+#ash-yd{
+	margin-bottom:30px;
+}
+
+// 够特色
+#gts{
+	margin-bottom:30px;
+	>.gts-header{
+		width:$w;
+		height:55px;
+		margin:auto;
+		background:url(../img/xx.png) repeat-x 0 18px;
+		text-align:center;
+		>h2{
+			margin:0;
+			font-size:25px;
+			font-weight:200;
+			text-align:center;
+			display:inline-block;
+			padding:0 50px;
+			background-color:#F6F6F6;
+		}
+	}
+
+	>.gts-main{
+		width:1200px;
+		height:140px;
+		font-size:0;
+		margin:auto;
+		>a{
+			width:160px;
+			height:140px;
+			display:inline-block;
+			margin:0 5px;
+			position:relative;
+			color:white;
+			>img{
+				width:160px;
+				height:140px;
+			}
+			>div{
+				position:absolute;
+				padding:10px 0 13px;
+				bottom:0;
+				box-sizing:border-box;
+				width:160px;
+				height:63px;
+				text-align:center;
+				>h2{
+					margin:0;
+					font-size:18px;
+					font-weight:200;
+				}
+				>p{
+					margin:0;
+					font-size:12px;
+					font-weight:bold;
+				}
+			}
+		}
+	}
+}
+
+// 还没逛够
+#mgg{
+	margin-bottom:30px;
+	overflow:hidden;
+	>.mgg-header{
+		width:$w;
+		height:55px;
+		margin:auto;
+		background:url(../img/xx.png) repeat-x 0 18px;
+		text-align:center;
+		>h2{
+			margin:0;
+			font-size:25px;
+			font-weight:200;
+			text-align:center;
+			display:inline-block;
+			padding:0 50px;
+			background-color:#F6F6F6;
+		}
+	}
+	>.mgg-main{
+		width:1190px;
+		margin:auto;
+		font-size:0;
+		background-color:$header-bg;
+		>a.mgg-item{
+			box-sizing:border-box;
+			padding:4px;
+			background-color:white;
+			width:230px;
+			height:315px;
+			display:inline-block;
+			border:1px solid white;
+			margin-right:10px;
+			margin-bottom:10px;
+			&:hover{
+				border:1px solid $header-hover;
+			}
+			>img{
+				width:220px;
+				height:220px;
+			}
+			>p{
+				font-size:12px;
+				color:$header-ft;
+				margin:10px;
+				&:hover{
+					color:$header-hover;
+				}
+			}
+			>span{
+				font-size:12px;
+				color:$header-hover;
+				margin-left:10px;
+			}
+		}
+	}	
+}
+
+
+// 公共部分
+
+.ash-main{
+	width:$w;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.ash{
+	width:590px;
+	height:523px;
+	display:flex;
+	flex-wrap: wrap;
+	>.ash-title{
+		width:590px;
+		height:58px;
+		background: #B04942;
+		display: flex;
+		>.ash-title-left{
+			margin-left:25px;
+			display: flex;
+			align-items: center;
+			>h1{
+				font-weight: 300;
+				color:white;
+				margin:0;
+				font-size: 23px;
+			}
+			>a{
+				margin-left:15px;
+			}
+		}
+		>.ash-title-right{
+			flex-grow: 1;
+			display: flex;
+			align-items: center;
+			justify-content:flex-end;
+			margin-right:20px;
+			>a{
+				padding:0 10px;
+				height:26px;
+				line-height: 26px;
+				border:1px solid rgba(255,255,255,0.5);
+				background-color: hsla(0,0%,100%,.2);
+				color:white;
+				text-decoration: none;
+				margin-left:10px;
+				text-align: center;
+				&:hover{
+					border:1px solid white;
+				}
+			}
+		}
+	}
+
+	>.ash-list-main{
+		padding:10px;
+		width:590px;
+		height:465px;
+		background: white;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between; 
+		align-content:flex-start;
+		>.ash-list-one{
+			width:183px;
+			height:260px;
+			/*margin-right:10px;
+			margin-bottom: 10px;*/
+			//background: #333;
+			overflow:hidden;
+			
+			>img{
+				transition:all 0.3s;
+				&:hover{
+					margin-left:-10px;
+				}
+				
+			} 
+		}
+		>.ash-item1-container{
+			width:376px;
+			height:260px;
+			display: flex;
+			flex-wrap: wrap;
+			>.ash-list-item1{
+				width:188px;
+				height:130px;
+				position:relative;
+				box-sizing:border-box;
+				>p:nth-child(1){
+					margin-top:25px;
+					margin-left:25px;
+					margin-bottom:10px;
+					color:#9A4375;
+					font-size:15px;
+					position:relative;
+					z-index:2;
+				}
+				>p:nth-child(2){
+					width:3.5em;
+					margin-left:25px;
+					margin-top:10px;
+			
+				}
+				>img{
+					position:absolute;
+					width:100px;
+					height:100px;
+					bottom:10px;
+					right:5px;
+					transition:all 0.3s;
+					z-index:1;
+					&:hover{
+						right:10px;
+					}
+				}
+			}
+		}
+		>.ash-list-item2{
+			width:183px;
+			height:130px;
+			margin-top:10px;
+			overflow:hidden;
+			&>img{
+				transition:all 0.3s;
+				&:hover{
+					margin-left:-10px;
+				}
+			}
+			
+		}
+		>.ash-list-item3{
+			width:569px;
+			height:35px;
+			margin-top: 10px;
+			display:flex;
+			position:relative;
+
+			&:hover >.item3-dir{
+				display:block;
+			}
+
+			>a.item3-img{
+				margin-top:7px;
+				width:70px;
+				padding:0 12px;
+				height:20px;
+				border-right:1px solid $header-ft;
+				&:nth-child(6){
+					border-right:none;
+				}
+				>img{
+					margin-top:-7px;
+				}
+			}
+			>.item3-dir-left,.item3-dir-right{
+				position:absolute;
+				width:15px;
+				height:15px;
+				border-right:none;
+				display:none;
+				&:hover{
+					color:$header-hover;
+				}
+				>i{
+					font-size:15px;
+				}
+			}
+			>.item3-dir-left{
+				left:0;
+				top:7px;
+			}
+			>.item3-dir-right{
+				right:0;
+				top:7px;
+			}
+			
+		}
+
+	}
+}
+
+
+//公共部分
+
+#ash-dnsm{
+	margin-bottom:30px;
+}
+.ash-dnsm-main{
+	margin:auto;
+	width:$w;
+	height:523px;
+	display:flex;
+	flex-wrap: wrap;
+	>.ash-title{
+		width:$w;
+		height:58px;
+		background: #B04942;
+		display: flex;
+		>.ash-title-left{
+			margin-left:25px;
+			display: flex;
+			align-items: center;
+			>h1{
+				font-weight: 300;
+				color:white;
+				margin:0;
+				font-size: 23px;
+			}
+			>a{
+				margin-left:15px;
+			}
+		}
+		>.ash-title-right{
+			flex-grow: 1;
+			display: flex;
+			align-items: center;
+			justify-content:flex-end;
+			margin-right:20px;
+			>a{
+				padding:0 10px;
+				height:26px;
+				line-height: 26px;
+				border:1px solid rgba(255,255,255,0.5);
+				background-color: hsla(0,0%,100%,.2);
+				color:white;
+				text-decoration: none;
+				margin-left:10px;
+				text-align: center;
+				&:hover{
+					border:1px solid white;
+				}
+			}
+		}
+	}
+
+	>.ash-list-main{
+		padding:10px;
+		width:590px;
+		height:465px;
+		background: white;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between; 
+		align-content:flex-start;
+		>.ash-list-one{
+			width:183px;
+			height:260px;
+			/*margin-right:10px;
+			margin-bottom: 10px;*/
+			//background: #333;
+			overflow:hidden;
+			
+			>img{
+				transition:all 0.3s;
+				&:hover{
+					margin-left:-10px;
+				}
+				
+			} 
+		}
+		>.ash-item1-container{
+			width:376px;
+			height:260px;
+			display: flex;
+			flex-wrap: wrap;
+			>.ash-list-item1{
+				width:188px;
+				height:130px;
+				position:relative;
+				box-sizing:border-box;
+				>p:nth-child(1){
+					margin-top:25px;
+					margin-left:25px;
+					margin-bottom:10px;
+					color:#9A4375;
+					font-size:15px;
+					position:relative;
+					z-index:2;
+				}
+				>p:nth-child(2){
+					width:3.5em;
+					margin-left:25px;
+					margin-top:10px;
+			
+				}
+				>img{
+					position:absolute;
+					width:100px;
+					height:100px;
+					bottom:10px;
+					right:5px;
+					transition:all 0.3s;
+					z-index:1;
+					&:hover{
+						right:10px;
+					}
+				}
+			}
+		}
+		>.ash-list-item2{
+			width:183px;
+			height:130px;
+			margin-top:10px;
+			overflow:hidden;
+			&>img{
+				transition:all 0.3s;
+				&:hover{
+					margin-left:-10px;
+				}
+			}
+			
+		}
+		>.ash-list-item3{
+			width:569px;
+			height:35px;
+			margin-top: 10px;
+			display:flex;
+			position:relative;
+
+			&:hover >.item3-dir{
+				display:block;
+			}
+
+			>a.item3-img{
+				margin-top:7px;
+				width:70px;
+				padding:0 12px;
+				height:20px;
+				border-right:1px solid $header-ft;
+				&:nth-child(6){
+					border-right:none;
+				}
+				>img{
+					margin-top:-7px;
+				}
+			}
+			>.item3-dir-left,.item3-dir-right{
+				position:absolute;
+				width:15px;
+				height:15px;
+				border-right:none;
+				display:none;
+				&:hover{
+					color:$header-hover;
+				}
+				>i{
+					font-size:15px;
+				}
+			}
+			>.item3-dir-left{
+				left:0;
+				top:7px;
+			}
+			>.item3-dir-right{
+				right:0;
+				top:7px;
+			}
+			
+		}
+
+	}
+}
+
+// <!-- 爱游戏 生活旅行 京东金融 -->
+
+#ash-yx-lx-jr{
+	margin-bottom:30px;
+	>.yx-lx-jr-main{
+		width:$w;
+		margin:auto;
+		display:flex;
+		justify-content:space-between;
+	}
+}
+
+.ash-ysj{
+	width:390px;
+	height:523px;
+	display:flex;
+	flex-wrap: wrap;
+	>.ash-title{
+		width:390px;
+		height:58px;
+		background: #B04942;
+		display: flex;
+		>.ash-title-left{
+			margin-left:25px;
+			display: flex;
+			align-items: center;
+			>h1{
+				font-weight: 300;
+				color:white;
+				margin:0;
+				font-size: 23px;
+			}
+			>a{
+				margin-left:15px;
+			}
+		}
+		>.ash-title-right{
+			flex-grow: 1;
+			display: flex;
+			align-items: center;
+			justify-content:flex-end;
+			margin-right:20px;
+			>a{
+				padding:0 10px;
+				height:26px;
+				line-height: 26px;
+				border:1px solid rgba(255,255,255,0.5);
+				background-color: hsla(0,0%,100%,.2);
+				color:white;
+				text-decoration: none;
+				margin-left:10px;
+				text-align: center;
+				&:hover{
+					border:1px solid white;
+				}
+			}
+		}
+	}
+
+	>.ash-list-main{
+		padding:10px;
+		width:390px;
+		height:465px;
+		background: white;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between; 
+		align-content:flex-start;
+		>.ash-list-one{
+			width:183px;
+			height:260px;
+			/*margin-right:10px;
+			margin-bottom: 10px;*/
+			//background: #333;
+			overflow:hidden;
+			
+			>img{
+				transition:all 0.3s;
+				&:hover{
+					margin-left:-10px;
+				}
+				
+			} 
+		}
+		>.ash-item1-container{
+			width:178px;
+			height:260px;
+			display: flex;
+			flex-wrap: wrap;
+			>.ash-list-item1{
+				width:188px;
+				height:130px;
+				position:relative;
+				box-sizing:border-box;
+				>p:nth-child(1){
+					margin-top:25px;
+					margin-left:25px;
+					margin-bottom:10px;
+					color:#9A4375;
+					font-size:15px;
+					position:relative;
+					z-index:2;
+				}
+				>p:nth-child(2){
+					width:3.5em;
+					margin-left:25px;
+					margin-top:10px;
+			
+				}
+				>img{
+					position:absolute;
+					width:100px;
+					height:100px;
+					bottom:10px;
+					right:5px;
+					transition:all 0.3s;
+					z-index:1;
+					&:hover{
+						right:10px;
+					}
+				}
+			}
+		}
+		>.ash-list-item2{
+			width:183px;
+			height:130px;
+			margin-top:10px;
+			overflow:hidden;
+			&>img{
+				transition:all 0.3s;
+				&:hover{
+					margin-left:-10px;
+				}
+			}
+			
+		}
+		>.ash-list-item3{
+			width:379px;
+			height:35px;
+			margin-top: 10px;
+			display:flex;
+			position:relative;
+
+			&:hover >.item3-dir{
+				display:block;
+			}
+
+			>a.item3-img{
+				margin-top:7px;
+				width:70px;
+				padding:0 12px;
+				height:20px;
+				border-right:1px solid $header-ft;
+				&:nth-child(4){
+					border-right:none;
+				}
+				>img{
+					margin-top:-7px;
+				}
+			}
+			>.item3-dir-left,.item3-dir-right{
+				position:absolute;
+				width:15px;
+				height:15px;
+				border-right:none;
+				display:none;
+				&:hover{
+					color:$header-hover;
+				}
+				>i{
+					font-size:15px;
+				}
+			}
+			>.item3-dir-left{
+				left:0;
+				top:7px;
+			}
+			>.item3-dir-right{
+				right:0;
+				top:7px;
+			}
+			
+		}
+
 	}
 }
