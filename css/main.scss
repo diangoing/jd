@@ -1726,6 +1726,176 @@ i{
 	}	
 }
 
+//footer
+#footer{
+	padding-bottom:100px;
+	background-color:#EAEAEA;
+	>.jd-server{
+		width:1200px;
+		padding:30px 0;
+		box-sizing:border-box;
+		margin:auto;
+
+		>ul >li{
+			display:inline-block;
+			width:297px;
+			height:42px;
+			text-align:center;
+			>span{
+				display:inline-block;
+				width:36px;
+				height:42px;	
+
+			}
+
+			&:nth-child(1) >span{
+				background:url(../img/jd-server.png) no-repeat;
+			}
+			&:nth-child(2) >span{
+				background:url(../img/jd-server.png) no-repeat;
+				background-position:0 -44px;
+			}
+			&:nth-child(3) >span{
+				background:url(../img/jd-server.png) no-repeat;
+				background-position:0 -86px;
+			}
+			&:nth-child(4) >span{
+				background:url(../img/jd-server.png) no-repeat;
+				background-position:0 -128px;
+			}
+
+			>h2{
+				margin:0;
+				display:inline-block;
+				line-height:42px;
+				vertical-align:top;
+
+			}
+
+		}
+		
+	}
+	
+	>.hr{
+		height:1px;
+		background-color:#DEDEDE;
+	}
+	>.jd-help{
+		width:$w;
+		margin:auto;
+		overflow:hidden;
+		padding:20px 0;
+		>ul{
+			overflow:hidden;
+		}
+		>ul>.help-item{
+			width:198px;
+			height:195px;
+			float:left;
+			>h3{
+				margin:0;
+				margin-bottom:10px;
+			}
+			>a{
+				color:$header-ft;
+				display:block;
+				&:hover{
+					color:$header-hover;
+				}
+			}
+		}
+		ul>.help-last{
+			width:200px;
+			height:150px;
+			float:left;
+			background:url(../img/ico_footer.png) no-repeat;
+			>p{
+				margin:0;
+			}
+			>h3{
+				text-align:center;
+				margin:0;
+				margin-bottom:10px;
+			}
+			>a{
+				color:$header-ft;
+				display:block;	
+				text-align:right;
+				&:hover{
+					color:$header-hover;
+				}
+			}
+		}
+
+	}
+
+	>.jd-copy{
+		width:$w;
+		padding:15px 0;
+		margin:auto;
+
+		>.copy1{
+			text-align:center;
+			>a{
+				color:$header-ft;
+				&:hover{
+					color:$header-hover;
+				}
+			}
+			>span{
+				color:$header-ft;
+				padding:0 5px;
+			}
+		}
+		>.copy2{
+			padding:10px 0;
+			text-align:center;
+			line-height:1.6em;
+			& a{
+				color:$header-ft;
+				&:hover{
+					color:$header-hover;
+				}
+			}
+			& span{
+				color:$header-ft;
+				padding:0 5px;
+			}
+
+		
+		}
+
+		>.copy3{
+			text-align:center;
+			>a{
+				display:inline-block;
+				width:103px;
+				height:32px;
+				&:nth-child(1){
+					background:url(../img/ico_footer.png) no-repeat 0 -151px;
+				}
+				&:nth-child(2){
+					background:url(../img/ico_footer.png) no-repeat -104px -151px;
+				}
+				&:nth-child(3){
+					background:url(../img/ico_footer.png) no-repeat 0 -184px;
+				}
+				&:nth-child(4){
+					background:url(../img/ico_footer.png) no-repeat -104px -151px;
+				}
+				&:nth-child(5){
+					background:url(../img/ico_footer.png) no-repeat 0 -217px;
+				}
+				&:nth-child(6){
+					background:url(../img/ico_footer.png) no-repeat -104px -217px;
+				}
+			}
+		}
+	}
+
+
+}
+
 
 // 公共部分
 
@@ -2280,4 +2450,98 @@ i{
 		}
 
 	}
+}
+
+
+#nav-left-fixed{
+	position:fixed;
+	width:34px;
+	left:281px;
+	top:100px;
+	z-index:200;
+	background-color:#918888;
+	>a{
+		padding:10px 5px;
+		display:block;
+		text-align:center;
+		line-height:1.2em;
+		color:white;
+		box-sizing:border-box;
+		border-bottom:1px solid #F6F6F6;
+		&:hover{
+			background-color:#D70B1C;
+		}
+		>i{
+			line-height:1em;
+		}
+
+	}
+}
+
+@media (max-width:1200px){
+	#nav-left-fixed{
+		position:fixed;
+		left:-100px;
+		top:0;
+	}
+}
+@media (max-width:1500px){
+	#nav-left-fixed{
+		position:fixed;
+		left:10px;
+		top:100px;
+	}
+}
+#nav-right-fixed{
+	position:fixed;
+	right:0;
+	top:250px;
+	>a{
+		
+		display:block;
+		text-align:center;
+		position:relative;
+		border-bottom:1px solid rgba(0,0,0,0);
+
+		>i{
+			width:34px;
+			height:35px;
+			line-height:35px;
+			font-size:16px;
+			display:inline-block;
+			position:relative;
+			z-index:100;
+			background-color:#918888;
+			color:white;
+			border-top-left-radius:4px;
+			border-bottom-left-radius:4px;
+			&:hover{
+				background-color:#d70b1c;
+				&+span{
+					background-color:#d70b1c;
+				}
+			}
+
+			
+		}
+		>span{
+			position:absolute;
+			width:62px;
+			background-color:#918888;
+			border-top-left-radius:4px;
+			border-bottom-left-radius:4px;
+			height:35px;
+			line-height:35px;
+			left:35px;
+			top:0;
+			z-index:90;
+			transition:left 0.8s;
+			color:white;
+			
+		}
+		&:hover >span{
+			left:-60px;
+		}
+	}
+	
 }

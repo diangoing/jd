@@ -1309,6 +1309,121 @@ i {
         color: #F12549;
         margin-left: 10px; }
 
+#footer {
+  padding-bottom: 100px;
+  background-color: #EAEAEA; }
+  #footer > .jd-server {
+    width: 1200px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin: auto; }
+    #footer > .jd-server > ul > li {
+      display: inline-block;
+      width: 297px;
+      height: 42px;
+      text-align: center; }
+      #footer > .jd-server > ul > li > span {
+        display: inline-block;
+        width: 36px;
+        height: 42px; }
+      #footer > .jd-server > ul > li:nth-child(1) > span {
+        background: url(../img/jd-server.png) no-repeat; }
+      #footer > .jd-server > ul > li:nth-child(2) > span {
+        background: url(../img/jd-server.png) no-repeat;
+        background-position: 0 -44px; }
+      #footer > .jd-server > ul > li:nth-child(3) > span {
+        background: url(../img/jd-server.png) no-repeat;
+        background-position: 0 -86px; }
+      #footer > .jd-server > ul > li:nth-child(4) > span {
+        background: url(../img/jd-server.png) no-repeat;
+        background-position: 0 -128px; }
+      #footer > .jd-server > ul > li > h2 {
+        margin: 0;
+        display: inline-block;
+        line-height: 42px;
+        vertical-align: top; }
+  #footer > .hr {
+    height: 1px;
+    background-color: #DEDEDE; }
+  #footer > .jd-help {
+    width: 1190px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0; }
+    #footer > .jd-help > ul {
+      overflow: hidden; }
+    #footer > .jd-help > ul > .help-item {
+      width: 198px;
+      height: 195px;
+      float: left; }
+      #footer > .jd-help > ul > .help-item > h3 {
+        margin: 0;
+        margin-bottom: 10px; }
+      #footer > .jd-help > ul > .help-item > a {
+        color: #9B9DA0;
+        display: block; }
+        #footer > .jd-help > ul > .help-item > a:hover {
+          color: #F12549; }
+    #footer > .jd-help ul > .help-last {
+      width: 200px;
+      height: 150px;
+      float: left;
+      background: url(../img/ico_footer.png) no-repeat; }
+      #footer > .jd-help ul > .help-last > p {
+        margin: 0; }
+      #footer > .jd-help ul > .help-last > h3 {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px; }
+      #footer > .jd-help ul > .help-last > a {
+        color: #9B9DA0;
+        display: block;
+        text-align: right; }
+        #footer > .jd-help ul > .help-last > a:hover {
+          color: #F12549; }
+  #footer > .jd-copy {
+    width: 1190px;
+    padding: 15px 0;
+    margin: auto; }
+    #footer > .jd-copy > .copy1 {
+      text-align: center; }
+      #footer > .jd-copy > .copy1 > a {
+        color: #9B9DA0; }
+        #footer > .jd-copy > .copy1 > a:hover {
+          color: #F12549; }
+      #footer > .jd-copy > .copy1 > span {
+        color: #9B9DA0;
+        padding: 0 5px; }
+    #footer > .jd-copy > .copy2 {
+      padding: 10px 0;
+      text-align: center;
+      line-height: 1.6em; }
+      #footer > .jd-copy > .copy2 a {
+        color: #9B9DA0; }
+        #footer > .jd-copy > .copy2 a:hover {
+          color: #F12549; }
+      #footer > .jd-copy > .copy2 span {
+        color: #9B9DA0;
+        padding: 0 5px; }
+    #footer > .jd-copy > .copy3 {
+      text-align: center; }
+      #footer > .jd-copy > .copy3 > a {
+        display: inline-block;
+        width: 103px;
+        height: 32px; }
+        #footer > .jd-copy > .copy3 > a:nth-child(1) {
+          background: url(../img/ico_footer.png) no-repeat 0 -151px; }
+        #footer > .jd-copy > .copy3 > a:nth-child(2) {
+          background: url(../img/ico_footer.png) no-repeat -104px -151px; }
+        #footer > .jd-copy > .copy3 > a:nth-child(3) {
+          background: url(../img/ico_footer.png) no-repeat 0 -184px; }
+        #footer > .jd-copy > .copy3 > a:nth-child(4) {
+          background: url(../img/ico_footer.png) no-repeat -104px -151px; }
+        #footer > .jd-copy > .copy3 > a:nth-child(5) {
+          background: url(../img/ico_footer.png) no-repeat 0 -217px; }
+        #footer > .jd-copy > .copy3 > a:nth-child(6) {
+          background: url(../img/ico_footer.png) no-repeat -104px -217px; }
+
 .ash-main {
   width: 1190px;
   margin: 0 auto;
@@ -1731,5 +1846,76 @@ i {
       .ash-ysj > .ash-list-main > .ash-list-item3 > .item3-dir-right {
         right: 0;
         top: 7px; }
+
+#nav-left-fixed {
+  position: fixed;
+  width: 34px;
+  left: 281px;
+  top: 100px;
+  z-index: 200;
+  background-color: #918888; }
+  #nav-left-fixed > a {
+    padding: 10px 5px;
+    display: block;
+    text-align: center;
+    line-height: 1.2em;
+    color: white;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F6F6F6; }
+    #nav-left-fixed > a:hover {
+      background-color: #D70B1C; }
+    #nav-left-fixed > a > i {
+      line-height: 1em; }
+
+@media (max-width: 1200px) {
+  #nav-left-fixed {
+    position: fixed;
+    left: -100px;
+    top: 0; } }
+@media (max-width: 1500px) {
+  #nav-left-fixed {
+    position: fixed;
+    left: 10px;
+    top: 100px; } }
+#nav-right-fixed {
+  position: fixed;
+  right: 0;
+  top: 250px; }
+  #nav-right-fixed > a {
+    display: block;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid transparent; }
+    #nav-right-fixed > a > i {
+      width: 34px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 16px;
+      display: inline-block;
+      position: relative;
+      z-index: 100;
+      background-color: #918888;
+      color: white;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px; }
+      #nav-right-fixed > a > i:hover {
+        background-color: #d70b1c; }
+        #nav-right-fixed > a > i:hover + span {
+          background-color: #d70b1c; }
+    #nav-right-fixed > a > span {
+      position: absolute;
+      width: 62px;
+      background-color: #918888;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      height: 35px;
+      line-height: 35px;
+      left: 35px;
+      top: 0;
+      z-index: 90;
+      transition: left 0.8s;
+      color: white; }
+    #nav-right-fixed > a:hover > span {
+      left: -60px; }
 
 /*# sourceMappingURL=main.css.map */
