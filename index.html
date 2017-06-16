@@ -5,11 +5,11 @@
 	<meta charset="utf-8">
 	<link href="./css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/swiper-3.4.2.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./src/swiper-3.4.2.jquery.min.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function(){
-			$('[href="#"]').attr('href','javascript:void(0)');
-		})
+		
 	</script>
 </head>
 <body>
@@ -302,18 +302,28 @@
 		</div>
 
 		<div class ="list-center">
-			<div class="center-top">
-				<div class="lbt">
-					<a href=""><img src="./img/list-1.jpg"></a>
-					<a href=""><img src="./img/list-2.jpg"></a>
-					<a href=""><img src="./img/list-3.jpg"></a>
-					<a href=""><img src="./img/list-4.jpg"></a>
-					<a href=""><img src="./img/list-5.jpg"></a>
-					<a href=""><img src="./img/list-6.jpg"></a>
-					<a href=""><img src="./img/list-7.jpg"></a>
-					<a href=""><img src="./img/list-8.jpg"></a>
+			<div class="<!-- center-top --> swiper-container">
+				<div class="<!-- lbt --> swiper-wrapper" id="nav-lbt">
+					
+					<a href="" class="swiper-slide"><img src="./img/list-1.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-2.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-3.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-4.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-5.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-6.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-7.jpg"></a>
+					<a href="" class="swiper-slide"><img src="./img/list-8.jpg"></a>
+					
 				</div>
-				<div class="qh">
+				 <div class="swiper-pagination"></div>
+    
+			    <!-- 如果需要导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			    
+			    <!-- 如果需要滚动条 -->
+			    <div class="swiper-scrollbar"></div>
+				<!-- <div class="qh" id="nav-lbt-select">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -324,7 +334,7 @@
 					<span></span>
 				</div>
 				<a href="#" class="ctleft"><i class="fa-angle-left"></i></a>
-				<a href="#" class="ctright"><i class="fa-angle-right"></i></a>
+				<a href="#" class="ctright"><i class="fa-angle-right"></i></a> -->
 			</div>
 			<div class="center-bottom">
 				<a href="#" class="cbleft"><img src="./img/list-9.jpg"></a><a href="#" class="cbright"><img src="./img/list-10.jpg"></a>
@@ -2199,5 +2209,7 @@
 	<a href=""><i class="fa-commenting-o"></i><span>我的消息</span></a>
 	<a href=""><i class="fa-gift"></i><span>咨询JIMI</span></a>
 </div>
+
+<script type="text/javascript" src="src/main.js"></script>
 </body>
 </html>

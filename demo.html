@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<style>
+		#main{
+			width:1200px;
+			margin:auto;
+			height:800px;
+			position: relative;
+		}
+		.img{
+			position: absolute;
+			left:0;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div class="div1"></div>
+		<img src="./img/list-1.jpg" alt="" class="img">
+	</div>
+	<script>
+		$('.img').animate({top:'50px'},1000)
+	</script>
+</body>
+</html>
